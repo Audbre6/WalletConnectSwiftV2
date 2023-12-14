@@ -1,6 +1,7 @@
 import UIKit
 
 import Web3Modal
+import WalletConnectModal
 import Auth
 import WalletConnectRelay
 import WalletConnectNetworking
@@ -27,6 +28,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         )
         
         Web3Modal.configure(
+            projectId: InputConfig.projectId,
+            metadata: metadata
+        )
+        
+        WalletConnectModal.configure(
             projectId: InputConfig.projectId,
             metadata: metadata
         )

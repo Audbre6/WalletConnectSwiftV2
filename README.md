@@ -51,7 +51,7 @@ open `Example/ExampleApp.xcodeproj`
 ## Web3Wallet
 Web3Wallet SDK introduces a new interface for all wallets that wraps the Sign and Auth clients internally.
 - [Migration guide from Sign and Auth to Web3Wallet](https://github.com/WalletConnect/walletconnect-docs/blob/main/docs/swift/web3wallet/upgrade-guide.md)
-
+WalletConnectNotify
 ## License
 
 Apache 2.0
